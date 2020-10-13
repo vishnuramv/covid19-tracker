@@ -1,0 +1,20 @@
+.map {
+    margin-top: 16px;
+}
+
+.map__container {
+    height: 457px;
+    padding: 3px !important;
+}
+
+.leaflet-container {
+    height: 100%;
+    border-radius: 5px;
+}
+
+.popup__flag {
+    height: 100px;
+    width: 100%;
+    background-size: cover;
+    border-radius: 8px;
+}

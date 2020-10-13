@@ -3,6 +3,65 @@
   padding: 0;
   box-sizing: border-box;
 }
-.App {
-  text-align: center;
+body {
+  background-color: rgb(241, 241, 241);
 }
+
+.app {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  padding: 20px;
+}
+
+.app__dropdown {
+  background-color: white;
+}
+
+.app__left {
+  flex: 0.9;
+}
+
+.app__right {
+  max-width: 350px;
+  padding: 0px !important;
+}
+
+
+
+
+
+.app__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.app__header>h1 {
+  color: rgb(230, 0, 0);
+}
+
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.app__graphTitle {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .app__left {
+    margin-bottom: 20px;
+  }
+
+  .app__right {
+    max-width: 100%;
+  }
+  }
